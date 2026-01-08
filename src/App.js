@@ -67,11 +67,14 @@ import {
 } from 'lucide-react';
 
 // --- Konfigurasi Firebase ---
-const firebaseConfig = JSON.parse(__firebase_config);
-const app = initializeApp(firebaseConfig);
-const auth = getAuth(app);
-const db = getFirestore(app);
-const appId = typeof __app_id !== 'undefined' ? __app_id : 'default-app-id';
+const firebaseConfig = {
+  apiKey: "AIzaSy...", 
+  authDomain: "proyek-kamu.firebaseapp.com",
+  projectId: "proyek-kamu",
+  storageBucket: "proyek-kamu.appspot.com",
+  messagingSenderId: "123456789",
+  appId: "1:123456789:web:abcdef..."
+};
 
 // --- Aktifkan Fitur Offline Sinkronisasi ---
 enableIndexedDbPersistence(db).catch((err) => {
@@ -1060,4 +1063,5 @@ export default function App() {
       </main>
     </div>
   );
+
 }
