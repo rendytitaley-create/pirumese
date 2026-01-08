@@ -68,12 +68,13 @@ import {
 
 // --- Konfigurasi Firebase ---
 const firebaseConfig = {
-  apiKey: "AIzaSy...", 
-  authDomain: "proyek-kamu.firebaseapp.com",
-  projectId: "proyek-kamu",
-  storageBucket: "proyek-kamu.appspot.com",
-  messagingSenderId: "123456789",
-  appId: "1:123456789:web:abcdef..."
+  apiKey: "AIzaSyDVRt3zgojeVh8ek61yXFQ9r9ihpOt7BqQ",
+  authDomain: "piru8106-b4f0a.firebaseapp.com",
+  projectId: "piru8106-b4f0a",
+  storageBucket: "piru8106-b4f0a.firebasestorage.app",
+  messagingSenderId: "948735762696",
+  appId: "1:948735762696:web:43674d0341fc8b05e14cbd",
+  measurementId: "G-SS1JWT5HV3"
 };
 
 // --- Aktifkan Fitur Offline Sinkronisasi ---
@@ -1065,3 +1066,4 @@ export default function App() {
   );
 
 }
+
